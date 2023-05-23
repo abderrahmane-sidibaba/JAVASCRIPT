@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stock</title>
+    <link rel="stylesheet" href="bootstrap.css">
+</head>
+
+<body background="OIP.jpg">
+    <table border="2" cellspacing="3" cellpadding="3"
+        style="background-color:whitesmoke; text-align: center; margin: auto;">
+        <tbody>
+            <tr>
+                <td>
+                    <table border="2" cellspacing="3" cellpadding="3"
+                        style="background-color:whitesmoke; text-align: center; margin: auto;">
+                        <tbody>
+                            <tr>
+                                <td><img src="product-5.jpg" alt=""></td>
+                            </tr>
+                            <tr>
+                                <td><label for="form_pnom">Reférence</label></td>
+                                <td><input type="text" value="Dark Night" id="form_pnom" readOnly /></td>
+                            </tr>
+                            <tr>
+                                <td><label for="BTS">Taille </label></td>
+                                <td>
+                                    <select onChange="updateStock1()" name="BTS" id="ST1" required>
+                                        <option value="XS">XS</option>
+                                        <option value="S">S</option>
+                                        <option value="M">M</option>
+                                        <option value="L">L</option>
+                                        <option value="XL">XL</option>
+                                        <option value="XXL">XXL</option>
+                                    </select>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><label for="BTSP">Stock </label></td>
+                                <td>
+                                    <select id="ST11">
+                                        <option value="30">30</option>
+                                        <option value="41">41</option>
+                                        <option value="22">22</option>
+                                        <option value="27">27</option>
+                                        <option value="20">20</option>
+                                        <option value="17">17</option>
+                                    </select>
+                                </td>
+                            </tr>
+                        <tfoot>
+                            <tr>
+                                <td></td>
+                                <td><a href="Price.html"><button type="submit">Shop</button></a></td>
+                            </tr>
+                        </tfoot>
+        </tbody>
+    </table>
+    </td>
+    <td>
+        <table border="2" cellspacing="3" cellpadding="3"
+            style="background-color:whitesmoke; text-align: center; margin: auto;">
+            <tbody>
+                <tr>
+                    <td><img src="product-3.jpg" alt=""></td>
+                </tr>
+                <tr>
+                    <td><label for="form_pnom">Reférence</label></td>
+                    <td><input type="text" value="Blue Sea Sneakers" id="form_pnom" readOnly /></td>
+                </tr>
+                <tr>
+                    <td><label for="BSS">Taille </label></td>
+                    <td>
+                        <select onChange="updateStock2()" name="BSS" id="ST2" required>
+                            <option value="39">39</option>
+                            <option value="40">40</option>
+                            <option value="41">41</option>
+                            <option value="42">42</option>
+                            <option value="43">43</option>
+                            <option value="44">44</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="BSSP">Stock</label></td>
+                    <td>
+                        <select id="ST22">
+                            <option value="40">40</option>
+                            <option value="33">33</option>
+                            <option value="35">35</option>
+                            <option value="27">27</option>
+                            <option value="25">25</option>
+                            <option value="15">15</option>
+                        </select>
+                    </td>
+                </tr>
+            <tfoot>
+                <tr>
+                    <td></td>
+                    <td><a href="Price.html"><button type="submit">Shop</button></a></td>
+                </tr>
+            </tfoot>
+            </tbody>
+        </table>
+    </td>
+    <td>
+        <table border="2" cellspacing="3" cellpadding="3"
+            style="background-color:whitesmoke; text-align: center; margin: auto;">
+            <tbody>
+                <tr>
+                    <td><img src="product-12.jpg" alt=""></td>
+                </tr>
+                <tr>
+                    <td><label for="form_pnom">Reférence</label></td>
+                    <td><input type="text" value="Soldier Camouflage" id="form_pnom" readOnly /></td>
+                </tr>
+                <tr>
+                    <td><label for="SC">Taille </label></td>
+                    <td>
+                        <select onChange="updateStock3()" name="SC" id="ST3" required>
+                            <option value="XS">XS</option>
+                            <option value="S">S</option>
+                            <option value="M">M</option>
+                            <option value="L">L</option>
+                            <option value="XL">XL</option>
+                            <option value="XXL">XXL</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="SCP">Stock</label></td>
+                    <td>
+                        <select id="ST33">
+                            <option value="19">19</option>
+                            <option value="23">23</option>
+                            <option value="21">21</option>
+                            <option value="25">25</option>
+                            <option value="17">17</option>
+                            <option value="20">20</option>
+                        </select>
+                    </td>
+                </tr>
+            <tfoot>
+                <tr>
+                    <td></td>
+                    <td><a href="Price.html"><button type="submit">Shop</button></a></td>
+                </tr>
+            </tfoot>
+            </tbody>
+        </table>
+    </td>
+    </tr>
+    <table border="2" cellspacing="3" cellpadding="3"
+        style="background-color:whitesmoke; text-align: center; margin: auto;">
+        <tbody>
+            <tr>
+                <td>
+                    <table border="2" cellspacing="3" cellpadding="3"
+                        style="background-color:whitesmoke; text-align: center; margin: auto;">
+                        <tbody>
+                            <tr>
+                                <td><img src="product-13.jpg" alt=""></td>
+                            </tr>
+                            <tr>
+                                <td><label for="form_pnom">Reférence</label></td>
+                                <td><input type="text" value="Work Buddy" id="form_pnom" readOnly /></td>
+                            </tr>
+                            <tr>
+                                <td><label for="WB">Taille </label></td>
+                                <td>
+                                    <select onChange="updateStock4()" name="WB" id="ST4" required>
+                                        <option value="M">M</option>
+                                        <option value="L">L</option>
+                                        <option value="XL">XL</option>
+                                    </select>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><label for="WBP">Stock</label></td>
+                                <td>
+                                    <select id="ST44">
+                                        <option value="13">13</option>
+                                        <option value="17">21</option>
+                                        <option value="21">21</option>
+                                    </select>
+                                </td>
+                            </tr>
+                        <tfoot>
+                            <tr>
+                                <td></td>
+                                <td><a href="Price.html"><button type="submit">Shop</button></a></td>
+                            </tr>
+                        </tfoot>
+        </tbody>
+    </table>
+    </td>
+    <td>
+        <table border="2" cellspacing="3" cellpadding="3"
+            style="background-color:whitesmoke; text-align: center; margin: auto;">
+            <tbody>
+                <tr>
+                    <td><img src="product-10.jpg" alt=""></td>
+                </tr>
+                <tr>
+                    <td><label for="form_pnom">Reférence</label></td>
+                    <td><input type="text" value="New Element" id="form_pnom" readOnly /></td>
+                </tr>
+
+                <tr>
+                    <td><label for="NE">Volume </label></td>
+                    <td>
+                        <select onChange="updateStock5()" name="NE" id="ST5" required>
+                            <option value="100">100L</option>
+                            <option value="250">250L</option>
+                            <option value="500">500L</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="NEP">Stock</label></td>
+                    <td>
+                        <select id="ST55">
+                            <option value="9">9</option>
+                            <option value="14">14</option>
+                            <option value="18">18</option>
+                        </select>
+                    </td>
+                </tr>
+            <tfoot>
+                <tr>
+                    <td></td>
+                    <td><a href="Price.html"><button type="submit">Shop</button></a></td>
+                </tr>
+            </tfoot>
+            </tbody>
+        </table>
+    </td>
+    <td>
+        <table border="2" cellspacing="3" cellpadding="3"
+            style="background-color:whitesmoke; text-align: center; margin: auto;">
+            <tbody>
+                <tr>
+                    <td><img src="product-11.jpg" alt=""></td>
+                </tr>
+                <tr>
+                    <td><label for="form_pnom">Reférence</label></td>
+                    <td><input type="text" value="White Snow" id="form_pnom" readOnly /></td>
+                </tr>
+                <tr>
+                    <td><label for="W2S">Taille </label></td>
+                    <td>
+                        <select onChange="updateStock6()" name="WS" id="ST6" required>
+                            <option value="M">M</option>
+                            <option value="L">L</option>
+                            <option value="XL">XL</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="WSP">Stock</label></td>
+                    <td>
+                        <select id="ST66">
+                            <option value="3">3</option>
+                            <option value="11">11</option>
+                            <option value="22">22</option>
+                        </select>
+                    </td>
+                </tr>
+            <tfoot>
+                <tr>
+                    <td></td>
+                    <td><a href="Price.html"><button type="submit">Shop</button></a></td>
+                </tr>
+            </tfoot>
+            </tbody>
+        </table>
+    </td>
+    </tr>
+</body>
+<script src="jquery-3.6.1.js"></script>
+<script src="bootstrap.js"></script>
+<script src="stock.js"></script>
+
+</html>

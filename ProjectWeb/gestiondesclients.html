@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GestionDesClients</title>
+    
+    <link rel="stylesheet" href="Gest.css">
+</head>
+
+<body background="WHITEBACK.jpg">
+    <h1>Gestion des Clients</h1>
+    <form>
+        <div class="input-row">
+            <label for="text">ID</label>
+            <input type="number" name="ID" id="IdC" />
+        </div>
+        <div class="input-row">
+            <label for="text">Last name</label>
+            <input type="text" name="Nom" id="NC" />
+        </div>
+        <div class="input-row">
+            <label for="text">First name</label>
+            <input type="text" name="Prénom" id="PC" />
+        </div>
+        <div class="input-row">
+            <label for="text">E-Mail</label>
+            <input type="email" name="E-Mail" id="EC" />
+        </div>
+        <div class="input-row">
+            <label for="text">Password</label>
+            <input type="password" name="Password" id="PdC" />
+        </div>
+        <button id="submitButton">Submit</button>
+    </form>
+    <table id="clientTable">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Last name</th>
+                <th>First name</th>
+                <th>E-Mail</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+</body>
+<script src="Gest.js"></script>
+</html>
